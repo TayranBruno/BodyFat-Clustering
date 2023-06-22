@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Clusterização</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Clusterização</h1>
+    <form id="cluster-form" method="POST">
+      <label for="weight">Altura:</label>
+      <input type="number" id="weight" name="weight" step="any" required>
+
+      <label for="height">Peso:</label>
+      <input type="number" id="height" name="height" step="any" required>
+
+      <label for="chest">Torax:</label>
+      <input type="number" id="chest" name="chest" step="any" required>
+
+      <label for="abdomen">Abdomen:</label>
+      <input type="number" id="abdomen" name="abdomen" step="any" required>
+
+      <label for="age">Idade:</label>
+      <input type="number" id="age" name="age" required>
+
+      <input type="submit" value="Clusterizar">
+    </form>
+
+    <div id="result-container" class="result">
+      <h2>Resultado:</h2>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

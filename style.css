@@ -1,0 +1,60 @@
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;  
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+form input[type="number"] {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#result-container {
+  text-align: center;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.jefit.com/wp/wp-content/uploads/2017/10/The-Three-Different-Body-Types-and-How-They-Affect-Your-Training.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
